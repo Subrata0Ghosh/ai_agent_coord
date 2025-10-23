@@ -1,0 +1,25 @@
+{
+    "project": "Task Manager",
+    "results": [
+        {
+            "task_id": "1",
+            "status": "done",
+            "files": [
+                {
+                    "path": "src/components/Demo.jsx",
+                    "content": "import React from 'react';\nexport default function Demo(){return <div>Build UI</div>}"
+                }
+            ]
+        },
+        {
+            "task_id": "2",
+            "status": "done",
+            "files": [
+                {
+                    "path": "src/api/routes.py",
+                    "content": "from fastapi import APIRouter\nrouter = APIRouter()\n@router.get('/Task Manager')\ndef get():\n    return {'message': 'Hello from Task Manager'}"
+                }
+            ]
+        }
+    ]
+}
