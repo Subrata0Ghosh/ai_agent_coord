@@ -1,0 +1,25 @@
+{
+    "project": "SmartTasks",
+    "results": [
+        {
+            "task_id": "1",
+            "status": "done",
+            "files": [
+                {
+                    "path": "src/components/Build_UI.jsx",
+                    "content": "\nimport React from 'react';\nexport default function Demo(){return <div>Build UI</div>}\n"
+                }
+            ]
+        },
+        {
+            "task_id": "2",
+            "status": "done",
+            "files": [
+                {
+                    "path": "src/api/routes.py",
+                    "content": "from fastapi import APIRouter\n\nrouter = APIRouter()\n\n@router.get('/SmartTasks')\ndef get():\n    return {'message': 'Hello from SmartTasks'}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,2 @@
-Frontend Agent running on port 9001
-Frontend Agent received: {
-  task_id: '1',
-  type: 'frontend',
-  description: 'Build UI',
-  project: 'Task Manager'
-}
+✅ Frontend Agent running on port 9001
+Frontend Agent received: Build UI
