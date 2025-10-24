@@ -1,2 +1,2 @@
-✅ Frontend Agent running on port 9001
-Frontend Agent received: Build UI
+Frontend Agent running on port 9001
+Frontend Agent received: { task_id: '1', project: 'SmartTasks', description: 'Build UI' }

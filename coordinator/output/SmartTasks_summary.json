@@ -1,0 +1,25 @@
+{
+  "project": "SmartTasks",
+  "results": [
+    {
+      "task_id": "1",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/components/Build_UI.jsx",
+          "content": "import React from 'react';\nexport default function Demo(){return <div>Build UI</div>}"
+        }
+      ]
+    },
+    {
+      "task_id": "2",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/api/Build_API.py",
+          "content": "# Auto-generated API route\nprint('Backend task: Build API')"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "project": "SmartTasks",
+  "results": [
+    {
+      "task_id": "b6253d15",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/components/Create_login_and_signup_UI.jsx",
+          "content": "\nimport React, { useState } from 'react';\n\nexport default function Login() {\n  const [user, setUser] = useState('');\n  const [pass, setPass] = useState('');\n  const handleLogin = () => alert(`Welcome ${user}!`);\n\n  return (\n    <div style={{margin:'50px'}}>\n      <h2>Login</h2>\n      <input placeholder=\"User ID\" onChange={e => setUser(e.target.value)} />\n      <input type=\"password\" placeholder=\"Password\" onChange={e => setPass(e.target.value)} />\n      <button onClick={handleLogin}>Login</button>\n    </div>\n  );\n}"
+        }
+      ]
+    },
+    {
+      "task_id": "6a1a432f",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/api/routes.py",
+          "content": "from fastapi import APIRouter\n\nrouter = APIRouter()\n\n@router.get('/SmartTasks')\ndef get():\n    return {'message': 'Hello from SmartTasks'}"
+        }
+      ]
+    },
+    {
+      "task_id": "d3d0283d",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/components/Create_dashboard_interface.jsx",
+          "content": "\nimport React from 'react';\nexport default function Demo(){return <div>Create dashboard interface</div>}\n"
+        }
+      ]
+    },
+    {
+      "task_id": "382e05c6",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/api/routes.py",
+          "content": "from fastapi import APIRouter\n\nrouter = APIRouter()\n\n@router.get('/SmartTasks')\ndef get():\n    return {'message': 'Hello from SmartTasks'}"
+        }
+      ]
+    },
+    {
+      "task_id": "6e128ecb",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/api/routes.py",
+          "content": "from fastapi import APIRouter\n\nrouter = APIRouter()\n\n@router.get('/SmartTasks')\ndef get():\n    return {'message': 'Hello from SmartTasks'}"
+        }
+      ]
+    },
+    {
+      "task_id": "b388a9d2",
+      "status": "done",
+      "files": [
+        {
+          "path": "src/components/Design_task_list_and_creation_UI.jsx",
+          "content": "\nimport React from 'react';\nexport default function Demo(){return <div>Design task list and creation UI</div>}\n"
+        }
+      ]
+    }
+  ]
+}
